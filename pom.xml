@@ -22,7 +22,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://54.173.152.179:9000/</sonar.host.url> 
+		<sonar.host.url>http://18.233.153.172:9000/</sonar.host.url> 
 		<sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password> 
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -95,13 +95,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Releases Nexus Repository</name>
-	      <url>http://52.91.128.48:8081/repository/tesla-wp-releases/</url>
+	      <url>http://54.87.203.160:8081/repository/tesla-wp-releases/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Technologies Snapshot Nexus Repository </name>
-	      <url>http://52.91.128.48:8081/repository/tesla-wp-snapshots/</url>
+	      <url>http://54.87.203.160:8081/repository/tesla-wp-snapshots/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
